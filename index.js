@@ -2,7 +2,7 @@
 var express = require('express')
 var app = express()
 
-var porta = process.env.porta || 3030 
+var porta = process.env.PORT || 3030 
 
 // configurações 
 app.set("view engine",'ejs')
